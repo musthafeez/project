@@ -1,75 +1,226 @@
-{
-  "extends": "tslint:recommended",
-  "rulesDirectory": [
-    "codelyzer"
-  ],
-  "rules": {
-    "array-type": false,
-    "arrow-parens": false,
-    "deprecation": {
-      "severity": "warn"
-    },
-    "import-blacklist": [
-      true,
-      "rxjs/Rx"
-    ],
-    "interface-name": false,
-    "max-classes-per-file": false,
-    "max-line-length": [
-      true,
-      140
-    ],
-    "member-access": false,
-    "member-ordering": [
-      true,
-      {
-        "order": [
-          "static-field",
-          "instance-field",
-          "static-method",
-          "instance-method"
-        ]
-      }
-    ],
-    "no-consecutive-blank-lines": false,
-    "no-console": [
-      true,
-      "debug",
-      "info",
-      "time",
-      "timeEnd",
-      "trace"
-    ],
-    "no-empty": false,
-    "no-inferrable-types": [
-      true,
-      "ignore-params"
-    ],
-    "no-non-null-assertion": true,
-    "no-redundant-jsdoc": true,
-    "no-switch-case-fall-through": true,
-    "no-use-before-declare": true,
-    "no-var-requires": false,
-    "object-literal-key-quotes": [
-      true,
-      "as-needed"
-    ],
-    "object-literal-sort-keys": false,
-    "ordered-imports": false,
-    "quotemark": [
-      true,
-      "single"
-    ],
-    "trailing-comma": false,
-    "no-output-on-prefix": true,
-    "use-input-property-decorator": true,
-    "use-output-property-decorator": true,
-    "use-host-property-decorator": true,
-    "no-input-rename": true,
-    "no-output-rename": true,
-    "use-life-cycle-interface": true,
-    "use-pipe-transform-interface": true,
-    "component-class-suffix": true,
-    "directive-class-suffix": true
-  }
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>E commerce</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+
+       <button class="fas fa-bars" data-toggle="collapse" data-target="#color"></button>
+          <div id="color" class="collapse">
+      <div class="container-fluid padding"> 
+        <div class="flex-column">
+          <a>cell phones</a><br>
+         <a>books</a>
+          <a>toys</a>
+        </div>
+      </div>
+    </div>
+
+
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="C:\HTML\Bootstrap\img\op.jpg"  height="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
+          <span class="navbar-nav"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-Responsive">
+          <div class="navbar-nav">
+            <a  class="nav-link active" href="#">Home</a>
+             <a  class="nav-link " href="#">About</a>
+              <a  class="nav-link" href="#">Teams</a>
+               <a  class="nav-link" href="#">Connect</a>
+
+
+               <form class="form-inline my-4 my-lg-0">
+                <input type="form-control mr-sm-8 float-right" type="search" placeholder="Search your products here" aria-label="Search">
+                 
+               </form>
+          </div>
+        </div>
+<button style="font-size: 18px">Cart<i class="fa fa-shopping-cart"></i></button><br>
+
+<div style="text-align: right" class="nav-item active" href="#">log-out </div>
+
+      </div>
+    </nav>
+
+
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"> </li>
+        <li data-target="#slides" data-slide-to="1"  ></li>
+        <li data-target="#slides" data-slide-to="2" ></li>
+
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="C:\Users\slk\batch3\html\img/1.jpg" width="1400" height="300">
+        </div>
+         <div class="carousel-item">
+          <img src="C:\Users\slk\batch3\html\img/2.jpg"  width="1400" height="300">
+        </div>
+        
+         <div class="carousel-item">
+          <img src="C:\Users\slk\batch3\html\img/3.jpg" width="1400" height="300">
+        </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    <div class="jumbotron jumbotron-fluid .bg-info text-white text-center"  style="background-color: green;">
+       
+      <div class="container">
+        <h1 class="display-3">Welcome to Click kart</h1>
+        <p class="lead">Launched by yathish kumar</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container text-muted"  style="align-items: center;">
+        
+        <div class="row" style="align-self: auto;"> 
+          <div class="col-md-3">
+            <div class="card">
+              <img src="C:\Users\slk\batch3\html\img/4.jpg" width="100" height="100"  class="card-img-top  img-fluid">
+              <div class="card-block">
+               <button> <h1 class="nav-link" href="#">CELL PHONES</h1></button>
+              </div>
+            </div>
+          </div>
+
+
+
+           <div class="col-md-3">
+            <div class="card">
+              <img src="C:\Users\slk\batch3\html\img/5.jpg"   width="100" height="100" class="card-img-top  img-fluid"/>
+              <div class="card-block">
+             <button> <h1 class="nav-link" href="#">BOOKS</h1></button>
+              </div>
+            </div>
+          </div>
+
+
+
+           <div class="col-md-3">
+            <div class="card">
+              <img src="C:\Users\slk\batch3\html\img/3.jpg"  width="100" height="100"  class="card-img-top  img-fluid"/>
+              <div class="card-block">
+                <h1 class="nav-link" href="#">TOYS</h1>
+            
+              </div>
+            </div>
+          </div>
+
+
+           
+
+        </div>
+      </div>
+
+
+      <h2 class="display-3 text-center py-5 my-4">Categeories</h2>
+
+      <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+        <a class="nav-link active" href="#a" data-toggle="tab">Muttapparai</a>
+        <a class="nav-link" href="#b" data-toggle="tab">Daavod</a>
+        
+        <a class="nav-link" href="#c" data-toggle="tab">Binladan</a>
+        <a class="nav-link" href="#d" data-toggle="tab">Virappa</a>
+        
+        </nav>
+        <div class="tab-content py-5">
+          <div class="tab-pane active" id="a">
+            <h3>Muttapparai</h3>
+            <p>This group has charita, Kowsalya,Akshtha, Ramya,Sneha</p>
+          </div>
+
+          <div class="tab-pane" id="b">
+            <h3>Daavod</h3>
+            <p>This group has Vaishnavi,Neha,Prakruthi,Shaziya,Mousin</p>
+             </div>
+
+              <div class="tab-pane" id="c">
+            <h3>Binladan</h3>
+            <p>This group has Edna,Hemashree,Triveni,Pooja</p>
+             </div>
+
+              <div class="tab-pane" id="d">
+            <h3>Virappa</h3>
+            <p>This group has Yathish,Mustafeez,Joy,Khasif</p>
+             </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- <button class="fun" data-toggle="collapse" data-target="#color">to see magic click here</button>
+    <div id="color" class="collapse">
+      <div class="container-fluid padding"> 
+        <div class="row">
+          <div class="col-md-3">
+            <img class="gif" src="C:\HTML\Bootstrap\img\fish.gif"  width="200px">
+          </div>
+          <div class="col-md-3">
+            <img src="C:\HTML\Bootstrap\img\bird.gif" width="200px" height="200px">
+          </div>
+          <div class="col-md-3">
+            <img src="C:\HTML\Bootstrap\img\rock.gif" width="200px" height="200px">
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+
+
+
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h2>Connect</h2><br><br>
+        </div>
+
+        <div class="col-12 social padding">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"><i class="fab fa-twitter"></i></a>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"><i class="fab fa-instagram"></i></a>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/3ae4d0598e.js" crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
